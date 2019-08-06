@@ -7,7 +7,7 @@ context "Filling in the Form" do
     fill_in("pirate[name]", :with => "Captain Jack Sparrow")
     fill_in("pirate[weight]", :with => "190 lbs")
     fill_in("pirate[height]", :with => "5 feet 11 inches")
-    fill_in("ship_name_1", :with => "Flying Dutchman")
+    fill_in("pirate[ships][0][name]", :with => "Flying Dutchman")
     fill_in("ship_type_1", :with => "ghost ship")
     fill_in("ship_booty_1", :with => "gold coins")
     fill_in("ship_name_2", :with => "Black Pearl")
